@@ -1,0 +1,27 @@
+body {
+    background: radial-gradient(circle, #000, #031cef);
+    height: 100vh;
+}
+
+.wrapper span {
+    position: fixed;
+    animation: animate 2s linear infinite;
+}
+.wrapper span i {
+    color: #ffff;
+    font-size: 18px;
+
+}
+.wrapper span:nth-child(1){
+    left: 60px;
+    animation-delay: 0.6s;
+    top: 5%;
+}
+.wrapper span:nth-child(2){
+    left: 10%;
+    animation-delay: 2s;
+    top: 40%;
+}
+.wrapper span:nth-child(3){
+    
+}
