@@ -118,3 +118,18 @@ padding: 300px;
         opacity:0;
     }
 }
+@media screen  and (max-width:400px){
+    .text-area a{
+     padding: 100px;
+     /* text-align: center;
+     justify-content: center;
+     align-items: center; */
+    }
+}
+@media screen  and (max-width:742px) {
+    
+    .text-area a{
+        padding: 260px;
+    }
+    
+}
