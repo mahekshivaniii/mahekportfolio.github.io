@@ -118,12 +118,12 @@ padding: 300px;
         opacity:0;
     }
 }
-@media screen  and (max-width:400px){
+/* @media screen  and (max-width:400px){
     .text-area a{
-     padding: 100px;
-     /* text-align: center;
+     padding-left: 45px;
+     text-align: center;
      justify-content: center;
-     align-items: center; */
+     align-items: center;
     }
 }
 @media screen  and (max-width:742px) {
@@ -132,4 +132,10 @@ padding: 300px;
         padding: 260px;
     }
     
-}
+} */
+@media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    .text-area  a{
+     padding-left: 90px;
+    }
+  }
